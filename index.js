@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 const path = require('path');
 const fs = require('fs');
@@ -12,9 +12,9 @@ const u2f = require('authdog');
 
 
 var port = process.env.PORT || 9000;
-var appId = 'https://localhost:' + port;
+var appId = 'https://192.168.1.10:' + port;
 
-// Create App
+// Create app
 const app = express();
 
 // Bind middlewares
